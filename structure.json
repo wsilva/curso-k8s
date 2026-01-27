@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "path": "curso-docker", "title": "Curso Docker wsilva" },
+    { "path": "curso-k8s", "title": "Curso Kubernetes wsilva" }
+  ]
+}

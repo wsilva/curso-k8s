@@ -1,0 +1,27 @@
+{
+  "title": "Primeira versão do curso",
+  "description": "Testando o sync do github com killercoda",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Criando um pod",
+        "text": "passo-01/text.md",
+        "verify": "passo-01/verify.sh"
+      },
+      {
+        "title": "Deletando um pod",
+        "text": "passo-02/text.md",
+        "verify": "passo-02/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
