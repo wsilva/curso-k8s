@@ -1,8 +1,8 @@
-## Listanado namespaces
+## Listando namespaces
 
 <br>
 
-Normal
+Singular
 
 ```plain
 kubectl get namespace
@@ -18,7 +18,7 @@ kubectl get namespaces
 
 <br>
 
-Short
+Curto
 
 ```plain
 kubectl get ns
@@ -26,7 +26,7 @@ kubectl get ns
 
 <br>
 
-Labels
+Com labels
 
 ```plain
 kubectl get namespaces --show-labels
@@ -34,7 +34,7 @@ kubectl get namespaces --show-labels
 
 <br>
 
-Yaml
+Formato yaml
 
 ```plain
 kubectl get namespaces --output yaml
@@ -42,14 +42,14 @@ kubectl get namespaces --output yaml
 
 <br>
 
-Json
+Formato json
 
 ```plain
 kubectl get namespaces --output json
 ```{{exec}}
 
 
-## Um namespace só em json
+Somente o namespace `default` em formato json
 
 ```plain
 kubectl get ns default -o json

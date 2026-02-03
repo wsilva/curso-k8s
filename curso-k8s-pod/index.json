@@ -1,0 +1,60 @@
+{
+  "title": "Curso Kubernetes - pods",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Abrindo novos terminais",
+        "text": "01-terminais/text.md"
+      },
+      {
+        "title": "Criando pods",
+        "text": "02-criando-pods/text.md",
+        "verify": "02-criando-pods/verify.sh"
+      },
+      {
+        "title": "Listando pods",
+        "text": "03-listar-pods/text.md"
+      },
+      {
+        "title": "Comando create",
+        "text": "04-comando-create/text.md",
+        "verify": "04-comando-create/verify.sh"
+      },
+      {
+        "title": "Comando apply",
+        "text": "05-comando-apply/text.md",
+        "verify": "05-comando-apply/verify.sh"
+      },
+      {
+        "title": "Port forward",
+        "text": "06-port-forward/text.md",
+        "verify": "06-port-forward/verify.sh"
+      },
+      {
+        "title": "Entrando no pod",
+        "text": "07-entrando-no-pod/text.md",
+        "verify": "07-entrando-no-pod/verify.sh"
+      },
+      {
+        "title": "Atualizar pod",
+        "text": "08-atualizar-pod/text.md"
+      },
+      {
+        "title": "Deletar pods",
+        "text": "09-deletar-pods/text.md",
+        "verify": "09-deletar-pods/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

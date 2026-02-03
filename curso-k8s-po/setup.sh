@@ -1,4 +1,4 @@
-$ cat <<EOF | tee /tmp/k8s-ascart.txt
+cat <<FIM | tee /tmp/k8s-ascart.txt
 
 
                                  =                                 
@@ -36,4 +36,4 @@ $ cat <<EOF | tee /tmp/k8s-ascart.txt
                 ===================================                
                  =================================                 
                                                                    
-EOF
+FIM

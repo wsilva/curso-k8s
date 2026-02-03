@@ -5,7 +5,7 @@ Agora delete o namespace `zezinho` criado anteriormente
     Dica
   </summary>
 
-  Lembre para listar
+  Lembre, para listar
 
   ```plain
   kubectl get namespaces
