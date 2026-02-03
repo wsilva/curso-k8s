@@ -1,2 +1,2 @@
 # curso-k8s
-curso k8s via killercoda
+Curso k8s via killercoda by wsilva

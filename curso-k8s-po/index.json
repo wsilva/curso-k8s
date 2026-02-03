@@ -1,9 +1,10 @@
 {
-  "title": "Primeira versão do curso",
-  "description": "Testando o sync do github com killercoda",
+  "title": "Curso Kubernetes - pods",
+  "description": "Curso kubernetes by wsilva",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "setup.sh"
     },
     "steps": [
       {

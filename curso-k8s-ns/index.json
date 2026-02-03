@@ -1,0 +1,36 @@
+{
+  "title": "Curso Kubernetes - namespaces",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Listando namespaces",
+        "text": "01-listar-ns/text.md"
+      },
+      {
+        "title": "Comando create",
+        "text": "02-comando-create/text.md"
+      },
+      {
+        "title": "Criar namespaces",
+        "text": "03-criar-ns/text.md",
+        "verify": "03-criar-ns/verify.sh"
+      },
+      {
+        "title": "Deletar namespaces",
+        "text": "04-deletar-ns/text.md",
+        "verify": "04-deletar-ns/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

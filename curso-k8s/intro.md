@@ -1,1 +1,0 @@
-Curso Kubernetes do wsilva

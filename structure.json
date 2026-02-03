@@ -1,6 +1,6 @@
 {
   "items": [
-    { "path": "curso-docker", "title": "Curso Docker wsilva" },
-    { "path": "curso-k8s", "title": "Curso Kubernetes wsilva" }
+    { "path": "curso-k8s-ns", "title": "Curso Kubernetes - namespaces" },
+    { "path": "curso-k8s-po", "title": "Curso Kubernetes - pods" }
   ]
 }
