@@ -1,6 +1,7 @@
 {
   "items": [
     { "path": "curso-k8s-ns", "title": "Curso Kubernetes - namespaces" },
-    { "path": "curso-k8s-pod", "title": "Curso Kubernetes - pods" }
+    { "path": "curso-k8s-pod", "title": "Curso Kubernetes - pods" },
+    { "path": "curso-k8s-multicontainer", "title": "Curso Kubernetes - multicontainer pods" }
   ]
 }

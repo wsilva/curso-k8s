@@ -1,0 +1,32 @@
+{
+  "title": "Curso Kubernetes - pods",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Criando o pod",
+        "text": "01-criando-cm-pod/text.md",
+        "verify": "01-criando-cm-pod/verify.sh"
+      },
+      {
+        "title": "Logs e Exec",
+        "text": "02-logs-exec/text.md"
+      },
+      {
+        "title": "Removendo recursos",
+        "text": "03-deletar-pods/text.md",
+        "verify": "03-deletar-pods/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
