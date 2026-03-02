@@ -1,3 +1,5 @@
+## Removendo namespace
+
 Agora delete o namespace `zezinho` criado anteriormente
 
 <details open>
@@ -18,3 +20,5 @@ Agora delete o namespace `zezinho` criado anteriormente
   ```{{exec}}
 
 </details>
+
+> ATENÇÃO: Ao remover um namespace todos os recursos dentro desse namespace serão removidos também.

@@ -8,22 +8,42 @@
     },
     "steps": [
       {
-        "title": "Listando namespaces",
-        "text": "01-listar-ns/text.md"
+        "title": "Listando namespaces no singular",
+        "text": "01-listar-ns-singular/text.md"
+      },
+      {
+        "title": "Listando namespaces no plural",
+        "text": "02-listar-ns-plural/text.md"
+      },
+      {
+        "title": "Listando namespaces com comando curto",
+        "text": "03-listar-ns-curto/text.md"
+      },
+      {
+        "title": "Listando namespaces com suas labels",
+        "text": "04-listar-ns-labels/text.md"
+      },
+      {
+        "title": "Listando namespaces com output em yaml",
+        "text": "05-listar-ns-yaml/text.md"
+      },
+      {
+        "title": "Listando namespaces com output em json",
+        "text": "06-listar-ns-json/text.md"
       },
       {
         "title": "Comando create",
-        "text": "02-comando-create/text.md"
+        "text": "07-comando-create/text.md"
       },
       {
-        "title": "Criar namespaces",
-        "text": "03-criar-ns/text.md",
-        "verify": "03-criar-ns/verify.sh"
+        "title": "Criando namespaces",
+        "text": "08-criar-ns/text.md",
+        "verify": "08-criar-ns/verify.sh"
       },
       {
-        "title": "Deletar namespaces",
-        "text": "04-deletar-ns/text.md",
-        "verify": "04-deletar-ns/verify.sh"
+        "title": "Deletando namespaces",
+        "text": "09-deletar-ns/text.md",
+        "verify": "09-deletar-ns/verify.sh"
       }
     ],
     "finish": {

@@ -1,8 +1,6 @@
 ## Dois terminais
 
-<br>
-
-Para abrir novo terminal devemos clicar no sinal de + no topo da tela
+Para abrir um novo terminal devemos clicar no sinal de + no topo da tela
 
 ![term1](./term1.png)
 
@@ -10,4 +8,4 @@ Para abrir novo terminal devemos clicar no sinal de + no topo da tela
 
 ![term2](./term2.png)
 
-Vamos utilizar 2 terminais nos próximos passos.
+Nos próximos passos vamos utilizar 2 terminais.

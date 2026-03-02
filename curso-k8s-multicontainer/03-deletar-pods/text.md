@@ -1,6 +1,6 @@
 ## Deletando o recursos
 
-Agora delete o pod criado anteriomente
+Agora delete o `pod` e o `configmap` criados anteriomente.
 
 <details open>
   <summary>
@@ -11,16 +11,16 @@ Agora delete o pod criado anteriomente
 
   ```plain
   kubectl delete pod phpfpm-nginx
-  ```{{exec}}
+  ```{{}}
 
   ```plain
   kubectl delete configmap nginx-config
-  ```{{exec}}
+  ```{{}}
 
   Ou podemos remover todos de uma vez
 
   ```plain
   kubectl delete pod/phpfpm-nginx configmap/nginx-config
-  ```{{exec}}
+  ```{{}}
 
 </details>

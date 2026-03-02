@@ -12,42 +12,54 @@
         "text": "01-terminais/text.md"
       },
       {
+        "title": "Comando create",
+        "text": "02-comando-create/text.md"
+      },
+      {
         "title": "Criando pods",
-        "text": "02-criando-pods/text.md",
-        "verify": "02-criando-pods/verify.sh"
+        "text": "03-criando-pods/text.md",
+        "verify": "03-criando-pods/verify.sh"
+      },
+      {
+        "title": "Criando pods com yaml",
+        "text": "04-criando-pods-yaml/text.md",
+        "verify": "04-criando-pods-yaml/verify.sh"
       },
       {
         "title": "Listando pods",
-        "text": "03-listar-pods/text.md"
+        "text": "05-listar-pods/text.md"
       },
       {
-        "title": "Comando create",
-        "text": "04-comando-create/text.md",
-        "verify": "04-comando-create/verify.sh"
+        "title": "Listando pods",
+        "text": "06-listar-pods-namespaces/text.md"
       },
       {
         "title": "Comando apply",
-        "text": "05-comando-apply/text.md",
-        "verify": "05-comando-apply/verify.sh"
+        "text": "07-comando-apply/text.md",
+        "verify": "07-comando-apply/verify.sh"
       },
       {
         "title": "Port forward",
-        "text": "06-port-forward/text.md",
-        "verify": "06-port-forward/verify.sh"
+        "text": "08-port-forward/text.md",
+        "verify": "08-port-forward/verify.sh"
       },
       {
         "title": "Entrando no pod",
-        "text": "07-entrando-no-pod/text.md",
-        "verify": "07-entrando-no-pod/verify.sh"
+        "text": "09-entrando-no-pod/text.md",
+        "verify": "09-entrando-no-pod/verify.sh"
       },
       {
         "title": "Atualizar pod",
-        "text": "08-atualizar-pod/text.md"
+        "text": "10-atualizar-pod/text.md"
+      },
+      {
+        "title": "Logs de um pod",
+        "text": "11-pod-logs/text.md"
       },
       {
         "title": "Deletar pods",
-        "text": "09-deletar-pods/text.md",
-        "verify": "09-deletar-pods/verify.sh"
+        "text": "12-deletar-pods/text.md",
+        "verify": "12-deletar-pods/verify.sh"
       }
     ],
     "finish": {

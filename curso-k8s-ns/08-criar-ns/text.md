@@ -1,6 +1,6 @@
 ## Criando namespace
 
-Crie um namespace chamado `zezinho`.
+Vamos criar um namespace chamado `zezinho`.
 
 <details open>
   <summary>
@@ -11,6 +11,12 @@ Crie um namespace chamado `zezinho`.
 
   ```plain
   kubectl create namespace zezinho
-  ```{{exec}}
+  ```{{}}
+
+  Lembre, para listar os namespaces:
+
+  ```plain
+  kubectl get namespaces
+  ```{{}}
 
 </details>
