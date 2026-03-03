@@ -19,7 +19,13 @@
   </summary>
 
   ```plain
-  kubectl get quota --namespace=curso
+  kubectl --namespace curso get quota curso-quota
+  ```{{}}
+
+  Ou mais curto:
+
+  ```plain
+  kubectl -n curso get quota curso-quota
   ```{{}}
 
 </details>

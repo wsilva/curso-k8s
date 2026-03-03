@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kubectl get quota --namespace=curso
+kubectl get quota curso-quota --namespace curso

@@ -39,3 +39,15 @@ Em um novo terminal vamos...
 
 </details>
 
+<details open>
+  <summary>
+    Conferindo o motivo de não escalar no replicaset
+  </summary>
+
+  ```plain
+  kubectl -n curso describe rs web
+  ```{{}}
+
+</details>
+
+
