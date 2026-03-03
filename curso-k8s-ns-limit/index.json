@@ -1,0 +1,37 @@
+{
+  "title": "Curso Kubernetes - Limites Namespace",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Criando namespace",
+        "text": "01-criar-ns/text.md",
+        "verify": "01-criar-ns/verify.sh"
+      },
+      {
+        "title": "Criando quota",
+        "text": "02-quota/text.md",
+        "verify": "02-quota/verify.sh"
+      },
+      {
+        "title": "Testando quota",
+        "text": "03-test-quota/text.md"
+      },
+      {
+        "title": "Remover namespace",
+        "text": "04-deletar-ns/text.md",
+        "verify": "04-deletar-ns/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

@@ -11,13 +11,13 @@ Agora delete o namespace `zezinho` criado anteriormente
 
   ```plain
   kubectl get namespaces
-  ```{{exec}}
+  ```{{}}
 
   Para remover rodamos:
 
   ```plain
   kubectl delete ns zezinho
-  ```{{exec}}
+  ```{{}}
 
 </details>
 
