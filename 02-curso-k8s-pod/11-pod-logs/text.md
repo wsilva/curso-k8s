@@ -2,7 +2,7 @@
 
 <details open>
   <summary>
-    Para ver os logs de um pod podemos usar o subcomando `logs`
+    Para ver os logs de um pod podemos usar o subcomando logs
   </summary>
 
   ```plain

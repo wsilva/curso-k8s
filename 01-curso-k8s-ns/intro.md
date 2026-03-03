@@ -1,3 +1,8 @@
-# Curso Kubernetes do wsilva
+### Gerenciando namespaces
 
-Gerenciando namespaces.
+Vamos trabalhar com namespaces:
+
+- criando
+- listando
+- editando
+- removendo

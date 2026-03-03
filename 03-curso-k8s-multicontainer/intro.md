@@ -1,3 +1,3 @@
-# Curso Kubernetes do wsilva
+### Multicontainer pods.
 
-Multicontainer pods.
+Criando e trabalhando com pods com mais de um container.

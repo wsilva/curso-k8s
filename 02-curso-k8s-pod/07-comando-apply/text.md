@@ -66,6 +66,18 @@ spec:
   kubectl apply -f /root/pod.yaml
   ```{{}}
 
+  > Podemos atualizar também apenas rodando
+  > 
+  > ```plain
+  > kubectl edit pod outrademo
+  > ```{{}}
+  >  
+  > ou 
+  >
+  > ```plain
+  > kubectl edit pod/outrademo
+  > ```{{}}
+
 </details>
 
 Agora vemos os pods atualizados no `terminal 1`.

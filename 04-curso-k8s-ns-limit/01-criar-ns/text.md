@@ -2,7 +2,7 @@
 
 <details open>
   <summary>
-    Vamos criar o namespace `curso`
+    Vamos criar o namespace curso
   </summary>
 
   Rode:

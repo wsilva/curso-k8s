@@ -1,3 +1,3 @@
-# Curso Kubernetes do wsilva
+### Gerenciando limites para namespaces
 
-Gerenciando limites para namespaces.
+Usando quotas para criar limites para namespaces.
