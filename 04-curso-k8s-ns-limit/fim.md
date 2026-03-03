@@ -4,4 +4,4 @@
 
 Mandou ver...
 
-Introdução a namespaces zerado
+Limites para namespaces zerado
