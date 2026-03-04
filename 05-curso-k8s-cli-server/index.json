@@ -1,0 +1,44 @@
+{
+  "title": "Curso Kubernetes - Kubernetes API",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Interagindo com APIs",
+        "text": "01-api/text.md"
+      },
+      {
+        "title": "Extraindo credenciais",
+        "text": "02-certs/text.md",
+        "verify": "02-certs/verify.sh"
+      },
+      {
+        "title": "API Pods",
+        "text": "03-api-pods/text.md",
+        "verify": "03-api-pods/verify.sh"
+      },
+      {
+        "title": "API Versions",
+        "text": "04-api-versions/text.md"
+      },
+      {
+        "title": "API Resources",
+        "text": "05-api-resources/text.md"
+      },
+      {
+        "title": "API Nodes",
+        "text": "06-api-nodes/text.md"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
