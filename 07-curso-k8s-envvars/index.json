@@ -1,0 +1,48 @@
+{
+  "title": "Curso Kubernetes - Gerenciando recursos",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Criando pod com env vars",
+        "text": "01-pod-envvar/text.md",
+        "verify": "01-pod-envvar/verify.sh"
+      },
+      {
+        "title": "Vendo as variáveis de ambiente injetadas",
+        "text": "02-pod-envvar/text.md",
+        "verify": "02-pod-envvar/verify.sh"
+      },
+      {
+        "title": "Criando pod com env vars baseadas em resources",
+        "text": "03-pod-env-resource/text.md",
+        "verify": "03-pod-env-resource/verify.sh"
+      },
+      {
+        "title": "Vendo as variáveis de ambiente de resources",
+        "text": "04-pod-env-resource/text.md",
+        "verify": "04-pod-env-resource/verify.sh"
+      },
+      {
+        "title": "Criando pod com env vars baseadas em campos",
+        "text": "05-pod-env-fields/text.md",
+        "verify": "05-pod-env-fields/verify.sh"
+      },
+      {
+        "title": "Vendo as variáveis de ambiente de campo",
+        "text": "06-pod-env-fields/text.md",
+        "verify": "06-pod-env-fields/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
