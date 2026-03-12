@@ -1,0 +1,33 @@
+{
+  "title": "Curso Kubernetes - Gerenciando recursos",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Criando pod gigante",
+        "text": "01-podzao/text.md",
+        "verify": "01-podzao/verify.sh"
+      },
+      {
+        "title": "Criando pod que causa OOM",
+        "text": "02-pod-oom/text.md",
+        "verify": "02-pod-oom/verify.sh"
+      },
+      {
+        "title": "Removendo os pods criados",
+        "text": "03-limpando/text.md",
+        "verify": "03-limpando/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

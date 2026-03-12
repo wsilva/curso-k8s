@@ -4,6 +4,7 @@
     { "path": "02-curso-k8s-pod", "title": "Curso Kubernetes - Pods" },
     { "path": "03-curso-k8s-multicontainer", "title": "Curso Kubernetes - Multicontainer pods" },
     { "path": "04-curso-k8s-ns-limit", "title": "Curso Kubernetes - Namespaces com limites" },
-    { "path": "05-curso-k8s-cli-server", "title": "Curso Kubernetes - Interagindo com as APIs" }
+    { "path": "05-curso-k8s-cli-server", "title": "Curso Kubernetes - Interagindo com as APIs" },
+    { "path": "06-curso-k8s-resources", "title": "Curso Kubernetes - Gerenciando recursos" }
   ]
 }
