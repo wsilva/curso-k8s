@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kubectl get pod demo-oom
+kubectl get pod podzao

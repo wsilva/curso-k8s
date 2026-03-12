@@ -6,11 +6,7 @@
   </summary>
 
   ```plain
-  kubectl delete pod podzao
-  ```{{}}
-
-  ```plain
-  kubectl delete pod demo-oom
+  kubectl delete pod/podzao pod/demo-oom
   ```{{}}
 
 </details>
