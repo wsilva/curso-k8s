@@ -1,0 +1,57 @@
+{
+  "title": "Curso Kubernetes - Gerenciando recursos",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Criando arquivo yaml e a respectiva secret",
+        "text": "01-secret-arquivo/text.md",
+        "verify": "01-secret-arquivo/verify.sh"
+      },
+      {
+        "title": "Criando secret do tipo generic com base em arquivos",
+        "text": "02-secret-cli-file/text.md",
+        "verify": "02-secret-cli-file/verify.sh"
+      },
+      {
+        "title": "Criando secret do tipo generica via cli",
+        "text": "03-secret-cli-literal/text.md",
+        "verify": "03-secret-cli-literal/verify.sh"
+      },
+      {
+        "title": "Criando secret do tipo registry",
+        "text": "04-secret-cli-registry/text.md",
+        "verify": "04-secret-cli-registry/verify.sh"
+      },
+      {
+        "title": "Conferindo as secrets criadas",
+        "text": "05-secret-conferindo/text.md"
+      },
+      {
+        "title": "Usando secrets como variáveis de ambiente",
+        "text": "06-secret-pod-env/text.md",
+        "verify": "06-secret-pod-env/verify.sh"
+      },
+      {
+        "title": "Usando secrets como arquivos",
+        "text": "07-secret-pod-file/text.md",
+        "verify": "07-secret-pod-file/verify.sh"
+      },
+      {
+        "title": "Limpando as secrets e pods do lab",
+        "text": "08-limpando/text.md",
+        "verify": "08-limpando/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

@@ -7,6 +7,7 @@
     { "path": "05-curso-k8s-cli-server", "title": "Curso Kubernetes - Interagindo com as APIs" },
     { "path": "06-curso-k8s-resources", "title": "Curso Kubernetes - Gerenciando recursos" },
     { "path": "07-curso-k8s-envvars", "title": "Curso Kubernetes - Trabalhando com variáveis de ambiente" },
-    { "path": "08-curso-k8s-cm", "title": "Curso Kubernetes - Trabalhando com configmaps" }
+    { "path": "08-curso-k8s-cm", "title": "Curso Kubernetes - Trabalhando com configmaps" },
+    { "path": "09-curso-k8s-secret", "title": "Curso Kubernetes - Trabalhando com secrets" }
   ]
 }
