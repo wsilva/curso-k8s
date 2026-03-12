@@ -1,0 +1,43 @@
+{
+  "title": "Curso Kubernetes - Gerenciando recursos",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Criando configmap literal",
+        "text": "01-cm-literal/text.md",
+        "verify": "01-cm-literal/verify.sh"
+      },
+      {
+        "title": "Montando configmap em variáveis de ambiente",
+        "text": "02-pod-cm-literal/text.md",
+        "verify": "02-pod-cm-literal/verify.sh"
+      },
+      {
+        "title": "Criando configmap com base em arquivo",
+        "text": "03-cm-arquivo/text.md",
+        "verify": "03-cm-arquivo/verify.sh"
+      },
+      {
+        "title": "Montando o configmap em volumes",
+        "text": "04-pod-cm-arquivo/text.md",
+        "verify": "04-pod-cm-arquivo/verify.sh"
+      },
+      {
+        "title": "Removendo pods e configmaps do lab",
+        "text": "05-limpando/text.md",
+        "verify": "05-limpando/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

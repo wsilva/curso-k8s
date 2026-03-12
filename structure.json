@@ -6,6 +6,7 @@
     { "path": "04-curso-k8s-ns-limit", "title": "Curso Kubernetes - Namespaces com limites" },
     { "path": "05-curso-k8s-cli-server", "title": "Curso Kubernetes - Interagindo com as APIs" },
     { "path": "06-curso-k8s-resources", "title": "Curso Kubernetes - Gerenciando recursos" },
-    { "path": "07-curso-k8s-envvars", "title": "Curso Kubernetes - Trabalhando com variáveis de ambiente" }
+    { "path": "07-curso-k8s-envvars", "title": "Curso Kubernetes - Trabalhando com variáveis de ambiente" },
+    { "path": "08-curso-k8s-cm", "title": "Curso Kubernetes - Trabalhando com configmaps" }
   ]
 }
