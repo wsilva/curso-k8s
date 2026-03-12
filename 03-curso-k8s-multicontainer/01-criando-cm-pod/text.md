@@ -4,7 +4,7 @@ Em um terminal vamos rodar o comando de watch para listar `pods` e `configmaps`
 
 ```plain
 watch -n 1 "kubectl get pod,configmap --output=wide"
-```{{exec}}
+```{{}}
 
 <br>
 
@@ -13,14 +13,14 @@ Em outro terminal vamos criar o configmap
 ```plain
 kubectl apply -f \
 https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/master/pod/pod-multicontainer-configmap.yaml
-```{{exec}}
+```{{}}
 
 E vamos criar o pod
 
 ```plain
 kubectl apply -f \
 https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/master/pod/pod-multicontainer.yaml
-```{{exec}}
+```{{}}
 
 > Na listagem de pods aparece 2/2 ao invés de 1/1, é a qtde de containers.
 

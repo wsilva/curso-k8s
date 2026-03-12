@@ -6,12 +6,12 @@
   </summary>
 
   ```plain
-  kubectl get node -o wide
+  kubectl get node -o json | jq ".items[].status.addresses"
   ```{{}}
 
 </details>
 
-O ip do node `controlplane`: **172.30.1.2**
+O ip do node `controlplane`: *172.30.1.2*
 
 <details open>
   <summary>

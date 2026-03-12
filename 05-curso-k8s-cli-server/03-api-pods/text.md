@@ -2,7 +2,7 @@
 
 <details open>
   <summary>
-    Agora conseguimos listar os pods
+    Agora conseguimos criar um pod via `curl`
   </summary>
 
   ```plain
@@ -17,13 +17,13 @@
       }
     }' \
     https://172.30.1.2:6443/api/v1/namespaces/default/pods
-  ```{{}}
+  ```{{exec}}
 
 </details>
 
 <details open>
   <summary>
-    Conferindo pods rodando
+    Conferindo os pods rodando
   </summary>
 
   ```plain
