@@ -1,0 +1,48 @@
+{
+  "title": "Curso Kubernetes - Gerenciando recursos",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Rodando pods usando nodename",
+        "text": "01-nodename/text.md",
+        "verify": "01-nodename/verify.sh"
+      },
+      {
+        "title": "Rodando pods usando nodeSelector",
+        "text": "02-nodeselector/text.md",
+        "verify": "02-nodeselector/verify.sh"
+      },
+      {
+        "title": "Trabalhando com taints",
+        "text": "03-taint/text.md",
+        "verify": "03-taint/verify.sh"
+      },
+      {
+        "title": "Trabalhando com tolerations",
+        "text": "04-toleration/text.md",
+        "verify": "04-toleration/verify.sh"
+      },
+      {
+        "title": "Conferindo os taints",
+        "verify": "05-describe/verify.sh",
+        "text": "05-describe/text.md"
+      },
+      {
+        "title": "Usando secrets como variáveis de ambiente",
+        "text": "06-limpando/text.md",
+        "verify": "06-limpando/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

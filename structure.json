@@ -8,6 +8,7 @@
     { "path": "06-curso-k8s-resources", "title": "Curso Kubernetes - Gerenciando recursos" },
     { "path": "07-curso-k8s-envvars", "title": "Curso Kubernetes - Trabalhando com variáveis de ambiente" },
     { "path": "08-curso-k8s-cm", "title": "Curso Kubernetes - Trabalhando com configmaps" },
-    { "path": "09-curso-k8s-secret", "title": "Curso Kubernetes - Trabalhando com secrets" }
+    { "path": "09-curso-k8s-secret", "title": "Curso Kubernetes - Trabalhando com secrets" },
+    { "path": "10-curso-k8s-schedule", "title": "Curso Kubernetes - Influenciando no scheduler" }
   ]
 }

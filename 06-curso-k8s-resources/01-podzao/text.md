@@ -5,6 +5,8 @@
     Vamos criar um pod que requisita 5Gi de memória:
   </summary>
 
+  Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/podzao.yaml
+
   ```plain
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/podzao.yaml

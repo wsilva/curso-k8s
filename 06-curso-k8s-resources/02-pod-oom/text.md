@@ -5,6 +5,8 @@
     Vamos criar um pod que requisita 256Mi de memória mas tenta usar 512MB
   </summary>
 
+  Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/pod-oom.yaml
+
   ```plain
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/pod-oom.yaml
