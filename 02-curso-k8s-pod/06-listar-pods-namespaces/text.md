@@ -2,24 +2,24 @@
 
 Listando pods em todos os namespaces:
 
-```plain
+```bash
 kubectl get pods --all-namespaces
 ```{{}}
 
 Somente do namespace `kube-system`
 
-```plain
+```bash
 kubectl get pod --namespace kube-system
 ```{{}}
 
 Listando com output com mais detalhes
 
-```plain
+```bash
 kubectl get pod -n kube-system -o wide
 ```{{}}
 
 Listando com output filtrando pelo campo nome usando jsonpath:
 
-```plain
+```bash
 kubectl get po -o jsonpath='{.items[*].metadata.name}'
 ```{{}}

@@ -2,13 +2,13 @@
 
 No terminal 2 vamos rodar
 
-```plain
+```bash
 kubectl exec -it meu-podinho -- bash
 ```{{}}
 
 Vamos editar o arquivo `index.html`
 
-```plain
+```bash
 cat <<FIM > /usr/share/nginx/html/index.html
 <h1>Kubernetaaaa!!!</h1>
 FIM
@@ -16,12 +16,12 @@ FIM
 
 Usamos o `ctrl+d` o o seguinte comando `exit` para sair do pod
 
-```plain
+```bash
 exit
 ```{{}}
 
 Rodando novamente o curl para ver o conteúdo alterado
 
-```plain
+```bash
 curl http://localhost:8888
 ```{{}}

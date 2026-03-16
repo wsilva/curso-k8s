@@ -5,7 +5,7 @@
     Para ver os logs de um pod podemos usar o subcomando logs
   </summary>
 
-  ```plain
+  ```bash
   kubectl logs -f meu-podinho
   ```{{}}
 

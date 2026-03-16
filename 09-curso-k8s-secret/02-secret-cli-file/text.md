@@ -7,7 +7,7 @@ Secrets por linha de comando lendo arquivos.
     Vamos criar outros 2 arquivos
   </summary>
 
-  ```plain
+  ```bash
   echo -n 'usuario' > user.txt
   echo -n 'super-senha' > pass.txt
   ```{{}}
@@ -19,7 +19,7 @@ Secrets por linha de comando lendo arquivos.
     Criando secret pela linha de comando usando os arquivos
   </summary>
 
-  ```plain
+  ```bash
   kubectl create secret \
     generic cli-file \
     --from-file=./user.txt \

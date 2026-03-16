@@ -2,21 +2,21 @@
 
 Mostrando os logs de cada container
 
-```plain
+```bash
 kubectl logs -f phpfpm-nginx --container=nginx
 ```{{}}
 
-```plain
+```bash
 kubectl logs -f phpfpm-nginx --container=php
 ```{{}}
 
 Para adicionar um processo e "acessar" o container segue a mesma lógica
 
-```plain
+```bash
 kubectl exec -it phpfpm-nginx --container=nginx -- ash
 ```{{}}
 
-```plain
+```bash
 kubectl exec -it phpfpm-nginx --container=php -- ash
 ```{{}}
 

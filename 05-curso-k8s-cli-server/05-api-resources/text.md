@@ -5,7 +5,7 @@
     Listando os api resources
   </summary>
 
-  ```plain
+  ```bash
   kubectl api-resources
   ```{{}}
 
@@ -18,24 +18,29 @@
     Explorando as opções de parâmetros para api resources:
   </summary>
   
-  ```plain
-  kubectl api-resources -o wide
+  ```bash
+  kubectl api-resources \
+    -o wide
   ```{{}}
 
-  ```plain
-  kubectl api-resources -o yaml
+  ```bash
+  kubectl api-resources \
+    -o yaml
   ```{{}}
 
-  ```plain
-  kubectl api-resources -o wide | grep nodes
+  ```bash
+  kubectl api-resources \
+    -o wide | grep nodes
   ```{{}}
 
-  ```plain
-  kubectl api-resources -o wide | grep namespaces
+  ```bash
+  kubectl api-resources \
+    -o wide | grep namespaces
   ```{{}}
 
-  ```plain
-  kubectl api-resources -o wide | grep pods
+  ```bash
+  kubectl api-resources \
+    -o wide | grep pods
   ```{{}}
 
 </details>

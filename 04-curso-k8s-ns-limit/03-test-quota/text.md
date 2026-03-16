@@ -5,8 +5,11 @@
     Vamos listas deployments, replicasets e pods
   </summary>
 
-  ```plain
-  watch -n 1 kubectl get deploy,rs,pod --namespace curso
+  ```bash
+  watch -n 1 "\
+    kubectl get \
+    deploy,rs,pod \
+    --namespace curso"
   ```{{}}
 
 </details>
@@ -18,7 +21,7 @@ Em um novo terminal vamos...
     Criar um deployment chamado curso
   </summary>
 
-  ```plain
+  ```bash
   kubectl create deploy web \
     --image=wfsilva/demoapp:v1 \
     --namespace curso
@@ -31,8 +34,11 @@ Em um novo terminal vamos...
     Escalando o deployment para 5 pods
   </summary>
 
-  ```plain
-  kubectl scale deployment web --replicas=5 --namespace=curso
+  ```bash
+  kubectl scale \
+    deployment web\
+    --replicas=5 \
+    --namespace=curso
   ```{{}}
 
   > Conferir no outro terminal se foram criados
@@ -44,7 +50,7 @@ Em um novo terminal vamos...
     Conferindo o motivo de não escalar no replicaset
   </summary>
 
-  ```plain
+  ```bash
   kubectl -n curso describe rs web
   ```{{}}
 

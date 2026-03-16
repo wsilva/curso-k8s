@@ -8,6 +8,7 @@
   ```bash
   kubectl delete \
     deploy/web \
-    pod/demo
+    pod/demo \
+    pod/demo-schedule
   ```{{}}
 </details>

@@ -7,7 +7,7 @@
 
   Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/cm/cm-file.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/cm/cm-file.yaml
   ```{{}}
@@ -21,13 +21,15 @@
 
   Listando:
   
-  ```plain
-  kubectl exec -it cm-file -- ls -la /
+  ```bash
+  kubectl exec -it \
+    cm-file -- ls -la /
   ```{{}}
   
   Pegando o conteúdo:
   
-  ```plain
-  kubectl exec -it cm-file -- cat /exemplo-cm.txt
+  ```bash
+  kubectl exec -it \
+    cm-file -- cat /exemplo-cm.txt
   ```{{}}
 </details>

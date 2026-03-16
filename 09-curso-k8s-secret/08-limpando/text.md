@@ -5,7 +5,7 @@
     Vamos remover os pods e secrets criados
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete \
     pod/secret-env \
     pod/secret-volume \

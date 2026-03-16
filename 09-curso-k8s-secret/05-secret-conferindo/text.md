@@ -7,19 +7,19 @@ Conferindo os secrets criados
     Descrevendo os secrets criados
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe secrets poryaml
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl describe secrets cli-file
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl describe secrets cli-literal
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl describe secrets registry
   ```{{}}
 </details>
@@ -29,19 +29,19 @@ Conferindo os secrets criados
     Olhando em formado yaml
   </summary>
 
-  ```plain
+  ```bash
   kubectl get secrets poryaml -o yaml
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get secrets cli-file -o yaml
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get secrets cli-literal -o yaml
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get secrets registry -o yaml
   ```{{}}
 </details>

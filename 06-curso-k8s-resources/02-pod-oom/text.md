@@ -7,7 +7,7 @@
 
   Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/pod-oom.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/pod-oom.yaml
   ```{{}}
@@ -19,7 +19,7 @@
     Olhando se o pod está rodando
   </summary>
 
-  ```plain
+  ```bash
   watch "kubectl get pod -o wide"
   ```{{}}
 
@@ -30,8 +30,9 @@
     Vamos conferir os eventos com o describe:
   </summary>
 
-  ```plain
-  kubectl describe pod demo-oom | grep State -A 5
+  ```bash
+  kubectl describe pod \
+    demo-oom | grep State -A 5
   ```{{}}
 
 </details>

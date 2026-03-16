@@ -7,7 +7,7 @@
 
   Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/cm/cm-literal.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/cm/cm-literal.yaml
   ```{{}}
@@ -19,7 +19,7 @@
     Listando as variáveis de ambiente no pod
   </summary>
 
-  ```plain
+  ```bash
   kubectl exec -it cm-literal -- printenv
   ```{{}}
 </details>

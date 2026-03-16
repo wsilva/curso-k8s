@@ -7,7 +7,7 @@ Criando configMap com base em um arquivo.
     Vamos criar um arquivo chamado exemplo-cm.txt
   </summary>
 
-  ```plain
+  ```bash
   echo 'yabadabadooo !!!' > exemplo-cm.txt
   echo 'adicionando' >> exemplo-cm.txt
   echo 'mais uma linha' >> exemplo-cm.txt
@@ -15,7 +15,7 @@ Criando configMap com base em um arquivo.
   ```{{}}
 
   Conferindo o arquivo 
-  ```plain
+  ```bash
   cat exemplo-cm.txt
   ```{{}}
 </details>
@@ -25,7 +25,7 @@ Criando configMap com base em um arquivo.
     Vamos criar manualmente o configmap usando o arquivo
   </summary>
 
-  ```plain
+  ```bash
   kubectl create configmap \
     demo-file \
     --from-file=exemplo-cm.txt
@@ -37,7 +37,7 @@ Criando configMap com base em um arquivo.
     Usando o dercribe para ver o configmap
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe cm demo-file
   ```{{}}
 </details>
@@ -47,7 +47,7 @@ Criando configMap com base em um arquivo.
     Pegando o output em formato yaml
   </summary>
 
-  ```plain
+  ```bash
   kubectl get cm demo-file -o yaml
   ```{{}}
 </details>

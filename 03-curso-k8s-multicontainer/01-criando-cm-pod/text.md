@@ -2,22 +2,25 @@
 
 Em um terminal vamos rodar o comando de watch para listar `pods` e `configmaps`
 
-```plain
-watch -n 1 "kubectl get pod,configmap --output=wide"
+```bash
+watch -n 1 "\
+    kubectl get \
+        pod,configmap \
+        --output=wide"
 ```{{}}
 
 <br>
 
 Em outro terminal vamos criar o configmap
 
-```plain
+```bash
 kubectl apply -f \
 https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/master/pod/pod-multicontainer-configmap.yaml
 ```{{}}
 
 E vamos criar o pod
 
-```plain
+```bash
 kubectl apply -f \
 https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/master/pod/pod-multicontainer.yaml
 ```{{}}
@@ -26,8 +29,11 @@ https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/master/pod/po
 
 E vamos criar um port forward
 
-```plain
-kubectl port-forward pod/phpfpm-nginx 9999:80 --address 0.0.0.0 &
+```bash
+kubectl port-forward \
+    pod/phpfpm-nginx \
+    9999:80 \
+    --address 0.0.0.0 &
 ```{{}}
 
 Vamos acessar a porta do pod [nesse link]({{TRAFFIC_HOST1_9999}}).

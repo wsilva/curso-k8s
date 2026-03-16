@@ -5,7 +5,7 @@
     Vamos remover os pods criados
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete pod/podzao pod/demo-oom
   ```{{}}
 

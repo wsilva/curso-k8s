@@ -7,7 +7,7 @@
 
   Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/podzao.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/pod/podzao.yaml
   ```{{}}
@@ -19,8 +19,10 @@
     Olhando se o pod está rodando
   </summary>
 
-  ```plain
-  watch "kubectl get pod -o wide"
+  ```bash
+  watch "\
+    kubectl get pod \
+    -o wide"
   ```{{}}
 
 </details>
@@ -30,8 +32,10 @@
     Vamos conferir os eventos com o describe:
   </summary>
 
-  ```plain
-  kubectl describe pod podzao | grep Events -A 20
+  ```bash
+  kubectl describe pod \
+    podzao | \
+    grep Events -A 20
   ```{{}}
 
 </details>

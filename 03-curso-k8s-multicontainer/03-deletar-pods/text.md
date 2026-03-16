@@ -9,18 +9,20 @@ Agora delete o `pod` e o `configmap` criados anteriomente.
 
   Podemos remover um a um
 
-  ```plain
+  ```bash
   kubectl delete pod phpfpm-nginx
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl delete configmap nginx-config
   ```{{}}
 
   Ou podemos remover todos de uma vez
 
-  ```plain
-  kubectl delete pod/phpfpm-nginx configmap/nginx-config
+  ```bash
+  kubectl delete \
+    pod/phpfpm-nginx \
+    configmap/nginx-config
   ```{{}}
 
 </details>

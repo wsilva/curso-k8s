@@ -7,7 +7,7 @@ Secrets por linha de comando.
     Vamos criar secret manualmente passando os valores por linha de comando
   </summary>
 
-  ```plain
+  ```bash
   kubectl create secret generic \
     cli-literal \
     --from-literal=user=outrouser \

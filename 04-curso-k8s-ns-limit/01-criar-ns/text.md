@@ -7,7 +7,7 @@
 
   Rode:
 
-  ```plain
+  ```bash
   kubectl create namespace curso
   ```{{}}
 
@@ -20,7 +20,7 @@
     Verificando se está criado.
   </summary>
 
-  ```plain
+  ```bash
   kubectl get namespace
   ```{{}}
 

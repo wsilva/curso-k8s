@@ -5,7 +5,7 @@
     Vamos criar um configmap chamado demo-literal pela linha de comando
   </summary>
 
-  ```plain
+  ```bash
   kubectl create configmap \
     demo-literal \
     --from-literal=curso=k8s \
@@ -18,7 +18,7 @@
     Usando o describe para ver o configmap
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe cm demo-literal
   ```{{}}
 </details>
@@ -28,7 +28,7 @@
     Vendo o configmap em formato yaml
   </summary>
 
-  ```plain
+  ```bash
   kubectl get cm demo-literal -o yaml
   ```{{}}
 </details>

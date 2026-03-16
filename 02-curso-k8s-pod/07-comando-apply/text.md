@@ -4,9 +4,12 @@ Primeiro vamos no terminal um, parar o comando `watch` com `ctrl+c`
 
 Em seguida rodar:
 
-```plain
-watch kubectl get pods -o wide --show-labels
-```{{exec}}
+```bash
+watch "\
+  kubectl get pods \
+  -o wide \
+  --show-labels
+```{{}}
 
 Voltamos para o terminal 2 e vamos alterar no arquivo o nome do pod de `demo` para `outrademo` em `metadata.name`
 
@@ -32,7 +35,7 @@ spec:
     Vamos atualizar com o comando:
   </summary>
 
-  ```plain
+  ```bash
   kubectl apply -f /root/pod.yaml
   ```{{}}
 
@@ -62,19 +65,19 @@ spec:
     Vamos atualizar com o comando:
   </summary>
 
-  ```plain
+  ```bash
   kubectl apply -f /root/pod.yaml
   ```{{}}
 
   > Podemos atualizar também apenas rodando
   > 
-  > ```plain
+  > ```bash
   > kubectl edit pod outrademo
   > ```{{}}
   >  
   > ou 
   >
-  > ```plain
+  > ```bash
   > kubectl edit pod/outrademo
   > ```{{}}
 

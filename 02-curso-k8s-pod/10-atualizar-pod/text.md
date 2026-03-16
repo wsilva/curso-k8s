@@ -25,7 +25,7 @@ spec:
     Vamos criar novo pod
   </summary>
 
-  ```plain
+  ```bash
   kubectl apply -f /root/pod.yaml
   ```{{}}
 
@@ -38,7 +38,7 @@ Olhando o terminal 1 vemos o status em `ImagePullBackOff`
     No terminal 2 vamos descrever o pod
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe pod vaidarruim
   ```{{}}
 
@@ -50,7 +50,7 @@ Olhando o terminal 1 vemos o status em `ImagePullBackOff`
     Filtrando pelo Status
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe pod vaidarruim | grep Status
   ```{{}}
 
@@ -61,7 +61,7 @@ Olhando o terminal 1 vemos o status em `ImagePullBackOff`
     Filtrando pelas condições
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe pod vaidarruim | grep Conditions -A 5
   ```{{}}
 
@@ -72,7 +72,7 @@ Olhando o terminal 1 vemos o status em `ImagePullBackOff`
     Filtrando pelos eventos
   </summary>
 
-  ```plain
+  ```bash
   kubectl describe pod vaidarruim | grep Events -A 15
   ```{{}}
 

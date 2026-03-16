@@ -5,7 +5,7 @@
     Agora conseguimos criar um pod via `curl`
   </summary>
 
-  ```plain
+  ```bash
   curl --request POST --header "Content-Type: application/json" \
     --cacert ca.crt --cert client.crt --key client.key \
     --data '{
@@ -26,7 +26,7 @@
     Conferindo os pods rodando
   </summary>
 
-  ```plain
+  ```bash
   watch "kubectl get pods"
   ```{{}}
 

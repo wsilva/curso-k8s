@@ -2,7 +2,7 @@
 
 Com labels
 
-```plain
+```bash
 kubectl get namespaces --show-labels
 ```{{}}
 

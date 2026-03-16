@@ -10,13 +10,15 @@ Conferindo os taints
   Descrevendo contrlplane
 
   ```bash
-  kubectl describe node controlplane | grep Taints
+  kubectl describe node \
+    controlplane | grep Taints
   ```{{}}
 
   Descrevendo node01
 
   ```bash
-  kubectl describe node node01 | grep Taints
+  kubectl describe node \
+    node01 | grep Taints
   ```{{}}
 </details>
 
@@ -28,7 +30,9 @@ Conferindo os taints
   Removendo do node01
 
   ```bash
-  kubectl taint node node01 doenca-
+  kubectl taint node \
+    node01 \
+    doenca-
   ```{{}}
 
   Vamos conferir o watch loop no outro terminal
@@ -36,7 +40,9 @@ Conferindo os taints
   Removendo do controlplane
 
   ```bash
-  kubectl taint nodes controlplane node-role.kubernetes.io/control-plane:NoSchedule-
+  kubectl taint nodes \
+    controlplane \
+    node-role.kubernetes.io/control-plane:NoSchedule-
   ```{{}}
 
   Vamos novamente conferir o watch loop no outro terminal

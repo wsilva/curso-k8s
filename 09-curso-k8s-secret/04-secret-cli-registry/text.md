@@ -7,7 +7,7 @@ Secrets do tipo docker registry.
     Vamos criar secret do tipo registry (usada para baixar imagens de registries privados)
   </summary>
 
-  ```plain
+  ```bash
   kubectl create secret docker-registry \
     registry \
     --docker-username=dockeruser \

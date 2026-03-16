@@ -22,7 +22,7 @@ spec:
     Para criar o arquivo podemos executar:
   </summary>
 
-  ```plain
+  ```bash
   cat <<FIM | tee /root/pod.yaml
   apiVersion: v1
   kind: Pod
@@ -46,7 +46,7 @@ spec:
     Para criar o pod com base no arquiv podemos executar:
   </summary>
 
-  ```plain
+  ```bash
   kubectl create -f /root/pod.yaml
   ```{{}}
 
@@ -59,7 +59,7 @@ spec:
     Vamos rodar novamente o comando para criar e conferir o erro informando de que já criamos:
   </summary>
 
-  ```plain
+  ```bash
   kubectl create -f /root/pod.yaml
   ```{{}}
 

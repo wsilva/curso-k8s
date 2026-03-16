@@ -7,14 +7,14 @@ Criando arquivo secret.yaml e criando uma secret a partir dele.
     Vamos gerar dois hashes simulando usuário e senha
   </summary>
 
-  ```plain
+  ```bash
   echo -n 'admin' | base64
   echo -n '1f2d1e2e67df' | base64
   ```{{}}
 
   Vamos jogar para dentro de variáveis de ambiente
 
-  ```plain
+  ```bash
   USERNAME=$(echo -n 'admin' | base64)
   PASSWORD=$(echo -n '1234abcd-senha-uhuuu' | base64)
   ```{{}}
@@ -26,7 +26,7 @@ Criando arquivo secret.yaml e criando uma secret a partir dele.
     Criando um arquivo secret.yaml usando esses hashs
   </summary>
 
-  ```plain
+  ```bash{4,6-8}
   cat <<FIM | tee secret.yaml
   apiVersion: v1
   kind: Secret
@@ -45,7 +45,7 @@ Criando arquivo secret.yaml e criando uma secret a partir dele.
     Criando a secret
   </summary>
 
-  ```plain
+  ```bash
   kubectl apply -f secret.yaml
   ```{{}}
 </details>
@@ -57,13 +57,13 @@ Criando arquivo secret.yaml e criando uma secret a partir dele.
 
   Usando o describe
 
-  ```plain
+  ```bash
   kubectl describe secret poryaml
   ```{{}}
 
   Em formato yaml
 
-  ```plain
+  ```bash
   kubectl get secret poryaml -o yaml
   ```{{}}
 </details>

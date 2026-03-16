@@ -7,7 +7,7 @@
 
   O arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/env/env-resources.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/env/env-resources.yaml
   ```{{}}

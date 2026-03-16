@@ -46,7 +46,9 @@ Usando nodeSelector para decidir em qual node o pod deve rodar.
   Vamos deixar listando nodes e pods em um terminal separado.
 
   ```bash
-  watch -n 1 'kubectl get pod -o wide; kubectl get node --show-labels'
+  watch -n 1 '\
+  kubectl get pod -o wide; \
+  kubectl get node --show-labels'
   ```{{}}
 
   Vemos o pod em pending. Vamos ver porque no outro terminal.

@@ -2,13 +2,13 @@
 
 Listando no formado `yaml`:
 
-```plain
+```bash
 kubectl get namespaces --output yaml
 ```{{}}
 
 Podemos listar somente o namespace `default` em formato `yaml`
 
-```plain
+```bash
 kubectl get ns default -o yaml
 ```{{}}
 

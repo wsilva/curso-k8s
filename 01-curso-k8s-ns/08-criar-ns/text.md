@@ -9,13 +9,13 @@ Vamos criar um namespace chamado `zezinho`.
 
   Rode:
 
-  ```plain
+  ```bash
   kubectl create namespace zezinho
   ```{{}}
 
   Lembre, para listar os namespaces:
 
-  ```plain
+  ```bash
   kubectl get namespaces
   ```{{}}
 

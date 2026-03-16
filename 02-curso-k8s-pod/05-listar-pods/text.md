@@ -4,18 +4,18 @@ Assim como namespaces também podemos usar a versão curta, longa, singular e pl
 
 Singular:
 
-```plain
+```bash
 kubectl get pod
 ```{{}}
 
 Plural:
 
-```plain
+```bash
 kubectl get pods
 ```{{}}
 
 Curto:
 
-```plain
+```bash
 kubectl get po
 ```{{}}

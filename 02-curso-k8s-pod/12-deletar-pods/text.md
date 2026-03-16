@@ -7,7 +7,7 @@ Agora delete os pods criados anteriomente
     Para remover o pod demo rodamos:
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete pod demo
   ```{{}}
 
@@ -19,7 +19,7 @@ Agora delete os pods criados anteriomente
     Para remover o pod outrademo rodamos:
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete pod outrademo
   ```{{}}
 
@@ -31,7 +31,7 @@ Agora delete os pods criados anteriomente
     Para remover o pod meu-podinho rodamos:
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete pod meu-podinho
   ```{{}}
 
@@ -42,7 +42,7 @@ Agora delete os pods criados anteriomente
     Para remover o pod vaidarruim rodamos:
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete pod vaidarruim
   ```{{}}
 
@@ -53,8 +53,12 @@ Agora delete os pods criados anteriomente
     Para remover todos de uma vez rodamos:
   </summary>
 
-  ```plain
-  kubectl delete pod/demo pod/outrademo pod/meu-podinho pod/vaidarruim
+  ```bash
+  kubectl delete \
+    pod/demo \
+    pod/outrademo \
+    pod/meu-podinho \
+    pod/vaidarruim
   ```{{}}
 
 </details>

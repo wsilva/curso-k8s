@@ -9,7 +9,7 @@ Usando as secrets
 
   Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/secret/secret-volume.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/secret/secret-volume.yaml
   ```{{}}
@@ -21,23 +21,23 @@ Usando as secrets
     Conferindo os arquivos dentro do container do pod
   </summary>
 
-  ```plain
+  ```bash
   kubectl exec -ti secret-volume -- mount | grep secret
   ```{{}}
   
-  ```plain
+  ```bash
   kubectl exec -ti secret-volume -- ls -l / | grep secret
   ```{{}}
   
-  ```plain
+  ```bash
   kubectl exec -ti secret-volume -- ls -l /secret-files
   ```{{}}
   
-  ```plain
+  ```bash
   kubectl exec -ti secret-volume -- cat /secret-files/user.txt
   ```{{}}
   
-  ```plain
+  ```bash
   kubectl exec -ti secret-volume -- cat /secret-files/pass.txt
   ```{{}}
 </details>

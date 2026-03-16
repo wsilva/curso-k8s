@@ -2,6 +2,6 @@
 
 Comando curto:
 
-```plain
+```bash
 kubectl get ns
 ```{{}}

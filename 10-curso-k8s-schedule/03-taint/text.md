@@ -44,7 +44,9 @@ Trabalhando com tain e tolerations.
   </summary>
 
   ```bash
-  kubectl taint nodes node01 doenca=dengue:NoExecute
+  kubectl taint nodes \
+    node01 \
+    doenca=dengue:NoExecute
   ```{{}}
   
   No outro terminal percebemos os pods indo para pending

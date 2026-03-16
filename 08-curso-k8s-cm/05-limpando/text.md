@@ -5,7 +5,7 @@
     Vamos remover os pods e configmaps criados
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete \
     cm/demo-file \
     cm/demo-literal \

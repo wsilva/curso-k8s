@@ -5,7 +5,7 @@
     Listar as versões de apis disponíveis
   </summary>
 
-  ```plain
+  ```bash
   kubectl api-versions
   ```{{}}
 

@@ -5,7 +5,7 @@
     Listando os nodes
   </summary>
 
-  ```plain
+  ```bash
   kubectl get nodes
   ```{{}}
 
@@ -16,23 +16,23 @@
     Explorando as opções de parâmetros para nodes:
   </summary>
   
-  ```plain
+  ```bash
   kubectl get nodes --output=wide
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get nodes --show-labels
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get no -o yaml
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get node controlplane
   ```{{}}
 
-  ```plain
+  ```bash
   kubectl get node controlplane -o json
   ```{{}}
 

@@ -2,7 +2,7 @@
 
 No plural:
 
-```plain
+```bash
 kubectl get namespaces
 ```{{}}
 

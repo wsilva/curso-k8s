@@ -5,7 +5,7 @@
     Vamos usar o comando exec para listar as variáveis de ambiente dentro do container do pod
   </summary>
 
-  ```plain
+  ```bash
   kubectl exec -ti envvars-field -- printenv
   ```{{}}
 
@@ -17,7 +17,7 @@
     Vamos remover o pod criado
   </summary>
 
-  ```plain
+  ```bash
   kubectl delete pod envvars-field
   ```{{}}
 

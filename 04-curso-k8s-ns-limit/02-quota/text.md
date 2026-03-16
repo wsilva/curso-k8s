@@ -5,7 +5,7 @@
     Criando uma quota com limite de 3 pods para o namespace curso
   </summary>
 
-  ```plain
+  ```bash
   kubectl create quota curso-quota \
     --hard=pods=3 \
     --namespace=curso
@@ -18,13 +18,13 @@
     Verificando
   </summary>
 
-  ```plain
+  ```bash
   kubectl --namespace curso get quota curso-quota
   ```{{}}
 
   Ou mais curto:
 
-  ```plain
+  ```bash
   kubectl -n curso get quota curso-quota
   ```{{}}
 

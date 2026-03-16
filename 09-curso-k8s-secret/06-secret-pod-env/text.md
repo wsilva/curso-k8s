@@ -9,7 +9,7 @@ Usando as secrets
 
   Arquivo yaml: https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/secret/secret-env.yaml
 
-  ```plain
+  ```bash
   kubectl apply -f \
   https://raw.githubusercontent.com/wsilva/kubernetes-curso-exemplos/main/secret/secret-env.yaml
   ```{{}}
@@ -21,7 +21,7 @@ Usando as secrets
     Conferindo as variáveis dentro do container do pod
   </summary>
 
-  ```plain
+  ```bash
   kubectl exec -ti secret-env -- printenv
   ```{{}}
 </details>
