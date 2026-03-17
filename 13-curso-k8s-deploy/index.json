@@ -1,0 +1,118 @@
+{
+  "title": "Curso Kubernetes - Replication Controller",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Baixando arquivo de deploy",
+        "text": "01-deploy/text.md",
+        "verify": "01-deploy/verify.sh"
+      },
+      {
+        "title": "Criando um deployment",
+        "text": "02-deploy-create/text.md",
+        "verify": "02-deploy-create/verify.sh"
+      },
+      {
+        "title": "Alterando a imagem",
+        "text": "03-deploy-edit-file/text.md",
+        "verify": "03-deploy-edit-file/verify.sh"
+      },
+      {
+        "title": "Atualizando um deployment",
+        "text": "04-deploy-update/text.md",
+        "verify": "04-deploy-update/verify.sh"
+      },
+      {
+        "title": "Acompanhando rollouts",
+        "verify": "05-deploy-rollout/verify.sh",
+        "text": "05-deploy-rollout/text.md"
+      },
+      {
+        "title": "Alterando novamente o deployment",
+        "text": "06-deploy-rollout-edit/text.md",
+        "verify": "06-deploy-rollout-edit/verify.sh"
+      },
+      {
+        "title": "Atualizando o deploy e acompanhando o rollout",
+        "text": "07-deploy-rollout-yaml/text.md",
+        "verify": "07-deploy-rollout-yaml/verify.sh"
+      },
+      {
+        "title": "Vendo rollouts detalhados",
+        "text": "08-deploy-rollout-detailed/text.md",
+        "verify": "08-deploy-rollout-detailed/verify.sh"
+      },
+      {
+        "title": "Atualizando deployment com set image",
+        "text": "09-deploy-rollout-set-img/text.md",
+        "verify": "09-deploy-rollout-set-img/verify.sh"
+      },
+      {
+        "title": "Atualizando deployment com imagem inexistente",
+        "text": "10-deploy-rollout-break-img/text.md",
+        "verify": "10-deploy-rollout-break-img/verify.sh"
+      },
+      {
+        "title": "Cancelando um rollout",
+        "text": "11-deploy-rollback/text.md",
+        "verify": "11-deploy-rollback/verify.sh"
+      },
+      {
+        "title": "Fazendo um rollback para revision específica",
+        "text": "12-deploy-rollback-revision/text.md",
+        "verify": "12-deploy-rollback-revision/verify.sh"
+      },
+      {
+        "title": "Pausando os rollouts de um deployment",
+        "text": "13-deploy-pause/text.md",
+        "verify": "13-deploy-pause/verify.sh"
+      },
+      {
+        "title": "Limpando o deployment",
+        "text": "14-limpando/text.md",
+        "verify": "14-limpando/verify.sh"
+      },
+      {
+        "title": "Criando deployment com estratégia recreate",
+        "text": "15-deploy-recreate-yaml/text.md",
+        "verify": "15-deploy-recreate-yaml/verify.sh"
+      },
+      {
+        "title": "Atualizando o novo deployment com set image",
+        "text": "16-deploy-recreate-set-img/text.md",
+        "verify": "16-deploy-recreate-set-img/verify.sh"
+      },
+      {
+        "title": "Limpando deployment recreate",
+        "text": "17-limpando-recreate/text.md",
+        "verify": "17-limpando-recreate/verify.sh"
+      },
+      {
+        "title": "Controlando deploys tipos rolling update",
+        "text": "18-deploy-rolling/text.md",
+        "verify": "18-deploy-rolling/verify.sh"
+      },
+      {
+        "title": "Atualizando deploy rolling com set image",
+        "text": "19-deploy-rolling-set-img/text.md",
+        "verify": "19-deploy-rolling-set-img/verify.sh"
+      },
+      {
+        "title": "Limpando deployment rollout",
+        "text": "20-limpando-rollout/text.md",
+        "verify": "20-limpando-rollout/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

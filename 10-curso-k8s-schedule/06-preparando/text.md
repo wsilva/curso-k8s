@@ -7,10 +7,10 @@ Trabalhando com node affinity
     Primeiro vamos remover o taint do node controlplane se ainda não removemos
   </summary>
 
-    ```bash
-    kubectl taint node \
-      controlplane \
-      node-role.kubernetes.io/control-plane-
+  ```bash
+  kubectl taint node \
+    controlplane \
+    node-role.kubernetes.io/control-plane-
   ```{{}}
 
 </details>
@@ -20,7 +20,7 @@ Trabalhando com node affinity
     Vamos dedicar um terminal para listar os pods
   </summary>
 
-    ```bash
+  ```bash
   watch "kubectl get pod -o wide --show-labels"
   ```{{}}
 

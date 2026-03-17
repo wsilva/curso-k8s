@@ -1,0 +1,48 @@
+{
+  "title": "Curso Kubernetes - Replication Controller",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Rodando pod com label específica",
+        "text": "01-rc-pod/text.md",
+        "verify": "01-rc-pod/verify.sh"
+      },
+      {
+        "title": "Criando um replication controller com mesma label",
+        "text": "02-rc-rc/text.md",
+        "verify": "02-rc-rc/verify.sh"
+      },
+      {
+        "title": "Comportamento do replication controller ao remover pods",
+        "text": "03-rc-recreate/text.md",
+        "verify": "03-rc-recreate/verify.sh"
+      },
+      {
+        "title": "Escalando replication controllers",
+        "text": "04-rc-scale/text.md",
+        "verify": "04-rc-scale/verify.sh"
+      },
+      {
+        "title": "Desescalando o replication controller",
+        "verify": "05-rc-no-pods/verify.sh",
+        "text": "05-rc-no-pods/text.md"
+      },
+      {
+        "title": "Limpando os pods e replication controllers do lab",
+        "text": "06-limpando/text.md",
+        "verify": "06-limpando/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

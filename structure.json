@@ -9,6 +9,9 @@
     { "path": "07-curso-k8s-envvars", "title": "Curso Kubernetes - Trabalhando com variáveis de ambiente" },
     { "path": "08-curso-k8s-cm", "title": "Curso Kubernetes - Trabalhando com configmaps" },
     { "path": "09-curso-k8s-secret", "title": "Curso Kubernetes - Trabalhando com secrets" },
-    { "path": "10-curso-k8s-schedule", "title": "Curso Kubernetes - Influenciando no scheduler" }
+    { "path": "10-curso-k8s-schedule", "title": "Curso Kubernetes - Influenciando no scheduler" },
+    { "path": "11-curso-k8s-rc", "title": "Curso Kubernetes - Replication Controller" },
+    { "path": "12-curso-k8s-rs", "title": "Curso Kubernetes - Replicaset" },
+    { "path": "13-curso-k8s-deploy", "title": "Curso Kubernetes - Deployment e rollout" }
   ]
 }

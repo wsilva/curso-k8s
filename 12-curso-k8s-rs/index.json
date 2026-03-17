@@ -1,0 +1,48 @@
+{
+  "title": "Curso Kubernetes - Replicasets",
+  "description": "Curso kubernetes by wsilva",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Rodando pod com label específica",
+        "text": "01-rs-pod/text.md",
+        "verify": "01-rs-pod/verify.sh"
+      },
+      {
+        "title": "Criando um replicaset com mesma label",
+        "text": "02-rs-rs/text.md",
+        "verify": "02-rs-rs/verify.sh"
+      },
+      {
+        "title": "Comportamento do replicaset ao remover pods",
+        "text": "03-rs-recreate/text.md",
+        "verify": "03-rs-recreate/verify.sh"
+      },
+      {
+        "title": "Escalando replicasets",
+        "text": "04-rs-scale/text.md",
+        "verify": "04-rs-scale/verify.sh"
+      },
+      {
+        "title": "Desescalando o replicaset",
+        "verify": "05-rs-no-pods/verify.sh",
+        "text": "05-rs-no-pods/text.md"
+      },
+      {
+        "title": "Limpando os pods e replicasets do lab",
+        "text": "06-limpando/text.md",
+        "verify": "06-limpando/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "fim.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
