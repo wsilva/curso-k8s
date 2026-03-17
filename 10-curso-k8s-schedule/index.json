@@ -33,9 +33,24 @@
         "text": "05-describe/text.md"
       },
       {
-        "title": "Usando secrets como variáveis de ambiente",
-        "text": "06-limpando/text.md",
-        "verify": "06-limpando/verify.sh"
+        "title": "Preparando para trabalhar com affinity",
+        "text": "06-preparando/text.md",
+        "verify": "06-preparando/verify.sh"
+      },
+      {
+        "title": "Trabalhando com node affinity",
+        "text": "07-node-affinity/text.md",
+        "verify": "07-node-affinity/verify.sh"
+      },
+      {
+        "title": "Trabalhando com pod anti-affinity",
+        "text": "08-pod-anti-affinity/text.md",
+        "verify": "08-pod-anti-affinity/verify.sh"
+      },
+      {
+        "title": "Limpando os pods e deployments do lab",
+        "text": "09-limpando/text.md",
+        "verify": "09-limpando/verify.sh"
       }
     ],
     "finish": {

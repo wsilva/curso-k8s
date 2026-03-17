@@ -9,6 +9,8 @@
   kubectl delete \
     deploy/web \
     pod/demo \
-    pod/demo-schedule
+    pod/demo-schedule \
+    pod/nodeaffinity \
+    pod/podaffinity
   ```{{}}
 </details>

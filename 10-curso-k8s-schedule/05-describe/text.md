@@ -7,7 +7,7 @@ Conferindo os taints
     Vamos usar o describe para conferir os Taints
   </summary>
 
-  Descrevendo contrlplane
+  Descrevendo controlplane
 
   ```bash
   kubectl describe node \
